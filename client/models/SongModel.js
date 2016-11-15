@@ -15,8 +15,11 @@ var SongModel = Backbone.Model.extend({
   },
 
   ended: function() {
-    console.log('Before triggering ended');
     this.trigger('ended', this);
+  },
+
+  clickRemove: function() {
+    this.trigger('clickRemove', this);
   }
 
 });
