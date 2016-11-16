@@ -1,0 +1,41 @@
+body {
+  background-image: url('http://eskipaper.com/images/gif-wallpaper-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+audio {
+  display:inline-block;
+  margin-left: 10%;
+}
+
+table {
+  color:white;
+  background: linear-gradient(to left,rgba(160,30,30,0.5),rgba(0,0,0,0.4)); 
+  display:inline-block;
+  border-spacing: 0.5rem;
+  border-radius: 10px;
+  width:30%;
+}
+
+th {
+  display:inline-block;
+  margin-left: 50%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+td {
+  display: inline-block;
+  color: white;
+  border-radius: 10px;
+}
+
+.songQueue{
+  display: inline-block;
+  float:right;
+}
+.LibTable{
+  float:left;
+}
