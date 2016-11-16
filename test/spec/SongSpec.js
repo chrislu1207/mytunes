@@ -30,4 +30,14 @@ describe('SongModel', function() {
     model.ended();
     expect(model.trigger).to.have.been.calledWith('ended', model);
   });
+
+  it('has a counter property that defines how many times this song has been played', function() {
+    expect(model.counter).to.be.a.number;
+  });
+
+  it('Increments the counter when this song is played', function() {
+    expect(model.counter).to.equal(0);
+    model.play();
+    expect(model.counter).to.equal(1);
+  });
 });

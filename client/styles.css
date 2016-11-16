@@ -10,6 +10,11 @@ audio {
   margin-left: 10%;
 }
 
+.searchSong {
+  display:inline-block;
+  margin-left: 40%;
+}
+
 table {
   color:white;
   background: linear-gradient(to left,rgba(160,30,30,0.5),rgba(0,0,0,0.4)); 
