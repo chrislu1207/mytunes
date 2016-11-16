@@ -29,7 +29,13 @@ th {
 td {
   display: inline-block;
   color: white;
+}
+
+.songTitle:hover {
+  cursor: pointer;
+  border-width: 10px;
   border-radius: 10px;
+  border: solid white;
 }
 
 .songQueue{
